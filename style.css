@@ -1,0 +1,63 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.432), rgba(255, 0, 0, 0.507));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 80px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+.box1{
+    border-radius: 5px;
+    border-style: hidden;
+    outline: none;
+    padding: 10px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.box2{
+    border-radius: 5px;
+    border-style: hidden;
+    outline: none;
+    padding: 10px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.button{
+    width: 270px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(201, 201, 178, 0.637);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+}
+.esqueceuSenha{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 78%; 
+    left: 30%;
+}
+.cadastrar{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 87%; 
+    left: 35%;
+}
